@@ -1,0 +1,53 @@
+﻿body {
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    overflow-y:hidden;
+}
+
+#contenedor {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cajacentro {
+    margin: 12% auto !important;
+    width: 450px;
+    height: 100%;
+    background-color: #ffffff;
+    padding:3%;
+}
+.proceso{
+    font-size:0.8rem;
+}
+.historial{
+    font-size:0.9rem;
+}
+.resultado{
+    font-size:3rem;
+}
+.rowconpad{
+    padding-right:15px !important;
+}
+.rowsinmag{
+    margin:0 !important;
+}
+.colsinpad{
+    padding:0 !important;
+}
+.btnproc {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #616161;
+    font-size:2rem;
+    cursor:pointer;
+}
+    .btnproc:hover {
+        background-color: #424242 !important;
+    }
